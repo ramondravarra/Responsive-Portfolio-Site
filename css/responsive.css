@@ -1,0 +1,106 @@
+@media screen and (min-width: 460px) {
+	#mongoram {
+		max-width: 150px;
+	}
+
+
+
+/**********************************************
+two column layout
+***********************************************/
+
+	#primary {
+		width: 50%;
+		float: left;
+	}
+
+	#secondary {
+		width: 40%;
+		float: right;
+	}
+
+/**********************************************
+Portfolio
+***********************************************/
+
+	#gallery li {
+		width: 42.4999%;
+		float: left;
+
+	}
+
+	#gallery li:nth-child(3) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(5) {
+		clear: left;
+	}
+
+
+	/**********************************************
+	About
+	***********************************************/
+	.profile-photo {
+		float: left;
+		margin: 25px 5% 200px 0;
+
+	}
+
+
+}
+
+
+@media screen and (min-width: 660px) {
+
+
+/**********************************************
+Portfolio still
+***********************************************/
+	
+
+	nav ul li {
+		margin-right: 3%;
+		margin-left: 3%;
+	}
+
+
+	#gallery li {
+		width: 28.3333%;
+		float: left;
+
+	}
+
+	#gallery li:nth-child(3) {
+		clear: none;
+	}
+
+	#gallery li:nth-child(5) {
+		clear: none;
+	}
+
+	#gallery li:nth-child(4) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(7) {
+		clear: left;
+	}
+	#gallery li:nth-child(10) {
+		clear: left;
+	}
+
+	#gallery li:nth-child(13) {
+		clear: left;
+	}
+
+		#gallery li:nth-child(16) {
+		clear: left;
+	}
+
+
+
+
+
+
+}
